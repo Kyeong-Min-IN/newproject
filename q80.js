@@ -14,7 +14,7 @@ function login() {
     var local_id = input_id.value;
     var local_pw = input_pw.value;
 
-    if (local_id == "고양이" && local_pw == "1234") {
+    if (local_id == "cat" && local_pw == "1234") {
         divX.innerHTML = local_id + "회원님 반갑습니다.";
     } else {
         alert("로그인 실패")
